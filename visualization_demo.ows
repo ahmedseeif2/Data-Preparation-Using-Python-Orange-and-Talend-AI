@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="CSV File Import" position="(126.0, 83.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" title="CSV File Import" version="" />
+		<node id="1" name="Data Table" position="(283.0, -5.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owtable.OWDataTable" title="Data Table" version="" />
+		<node id="2" name="Distributions" position="(285.0, 86.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" title="Distributions" version="" />
+		<node id="3" name="Scatter Plot" position="(282.0, 196.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" title="Scatter Plot" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="2" sink_channel="Data" sink_node_id="3" source_channel="Data" source_node_id="0" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'_session_items': [('C:/My Computer/Materials &amp; Documents/Artificial Intelligence/EPITA/Data Exploration and Preparation/My_Explainations/Intake1-Alex/Day2/Demos &amp; Files/4 Visualization/dataset2.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 10, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''}), ('C:/My Computer/Materials &amp; Documents/Artificial Intelligence/EPITA/Data Exploration and Preparation/My_Explainations/Intake1-G4/Day2/Demos &amp; Files/5 Aggregation/2 using Orange/dataset2.csv', {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 10, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/My Computer/Materials &amp; Documents/Artificial Intelligence/EPITA/Data Exploration and Preparation/My_Explainations/Intake1-Alex/Day2/Demos &amp; Files/4 Visualization', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x01M\x00\x00\x00G\x00\x00\x02r\x00\x00\x01\x86\x00\x00\x01R\x00\x00\x00]\x00\x00\x02m\x00\x00\x01\x81\x00\x00\x00\x00\x00\x00\x00\x00\x03\xc0', '__version__': 1}</properties>
+		<properties format="literal" node_id="1">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'dist_color_RGB': (220, 220, 220, 255), 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03)\x00\x00\x01\xde\x00\x00\x00\x05\x00\x00\x00\x16\x00\x00\x03$\x00\x00\x01\xd9\x00\x00\x00\x00\x00\x00\x00\x00\x03\xc0', 'select_rows': True, 'selected_cols': [], 'selected_rows': [], 'show_attribute_labels': True, 'show_distributions': True, '__version__': 1}</properties>
+		<properties format="pickle" node_id="2">gAN9cQAoWAoAAABhdXRvX2FwcGx5cQGIWBIAAABjb250cm9sQXJlYVZpc2libGVxAohYEAAAAGN1
+bXVsYXRpdmVfZGlzdHJxA4lYEwAAAGZpdHRlZF9kaXN0cmlidXRpb25xBEsBWAkAAABoaWRlX2Jh
+cnNxBYlYDQAAAGtkZV9zbW9vdGhpbmdxBksKWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQdDMgHZ
+0MsAAgAAAAAAFAAAAA0AAAO1AAACEwAAABkAAAAjAAADsAAAAg4AAAAAAAAAAAPAcQhYCgAAAHNo
+b3dfcHJvYnNxCYlYDwAAAHN0YWNrZWRfY29sdW1uc3EKiVgLAAAAX192ZXJzaW9uX19xC0sBWBAA
+AABjb250ZXh0X3NldHRpbmdzcQxdcQ0oY29yYW5nZXdpZGdldC5zZXR0aW5ncwpDb250ZXh0CnEO
+KYFxD31xEChYBgAAAHZhbHVlc3ERfXESKFgEAAAAY3ZhcnETWAMAAABTZXhxFEtlhnEVWA4AAABu
+dW1iZXJfb2ZfYmluc3EWSwBK/v///4ZxF1gJAAAAc2VsZWN0aW9ucRhjYnVpbHRpbnMKc2V0CnEZ
+XXEahXEbUnEcSv7///+GcR1YAwAAAHZhcnEeWAgAAABTdXJ2aXZlZHEfS2WGcSBoC0sBdVgKAAAA
+YXR0cmlidXRlc3EhfXEiKFgIAAAARW1iYXJrZWRxI0sBWAMAAABBZ2VxJEsCWAUAAABQYXJjaHEl
+SwJYBgAAAFBjbGFzc3EmSwJoFEsBaB9LAVgLAAAAUGFzc2VuZ2VySWRxJ0sCWAUAAABTaWJTcHEo
+SwJ1WAUAAABtZXRhc3EpfXEqKFgEAAAATmFtZXErSwNYBgAAAFRpY2tldHEsSwN1dWJoDimBcS19
+cS4oaBF9cS8oWAQAAABjdmFycTBYAwAAAFNleHExS2WGcTJYDgAAAG51bWJlcl9vZl9iaW5zcTNL
+AEr+////hnE0WAkAAABzZWxlY3Rpb25xNWgZXXE2hXE3UnE4Sv7///+GcTlYAwAAAHZhcnE6WAgA
+AABTdXJ2aXZlZHE7S2WGcTxoC0sBdWghfXE9KFgIAAAARW1iYXJrZWRxPksBWAMAAABBZ2VxP0sC
+WAUAAABQYXJjaHFASwJYBgAAAFBjbGFzc3FBSwJoMUsBaDtLAVgLAAAAUGFzc2VuZ2VySWRxQksC
+WAUAAABTaWJTcHFDSwJ1aCl9cUQoWAQAAABOYW1lcUVLA1gGAAAAVGlja2V0cUZLA3V1YmV1Lg==
+</properties>
+		<properties format="pickle" node_id="3">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgLAAAAYXV0b19zYW1wbGVxAohYEgAAAGNvbnRyb2xB
+cmVhVmlzaWJsZXEDiFgTAAAAc2F2ZWRXaWRnZXRHZW9tZXRyeXEEQzIB2dDLAAIAAAAAAAAAAAAB
+AAADvwAAAd8AAAAFAAAAFwAAA7oAAAHaAAAAAAAAAAADwHEFWAkAAABzZWxlY3Rpb25xBk5YEQAA
+AHRvb2x0aXBfc2hvd3NfYWxscQeIWAUAAABncmFwaHEIfXEJKFgLAAAAYWxwaGFfdmFsdWVxCkuA
+WA0AAABjbGFzc19kZW5zaXR5cQuJWAsAAABqaXR0ZXJfc2l6ZXEMSwBYEwAAAGxhYmVsX29ubHlf
+c2VsZWN0ZWRxDYlYFgAAAG9ydGhvbm9ybWFsX3JlZ3Jlc3Npb25xDolYCwAAAHBvaW50X3dpZHRo
+cQ9LClgJAAAAc2hvd19ncmlkcRCJWAsAAABzaG93X2xlZ2VuZHERiFgNAAAAc2hvd19yZWdfbGlu
+ZXESiXVYCwAAAF9fdmVyc2lvbl9fcRNLBFgQAAAAY29udGV4dF9zZXR0aW5nc3EUXXEVKGNvcmFu
+Z2V3aWRnZXQuc2V0dGluZ3MKQ29udGV4dApxFimBcRd9cRgoWAYAAAB2YWx1ZXNxGX1xGihYCgAA
+AGF0dHJfY29sb3JxG05K/v///4ZxHFgKAAAAYXR0cl9sYWJlbHEdTkr+////hnEeWAoAAABhdHRy
+X3NoYXBlcR9OSv7///+GcSBYCQAAAGF0dHJfc2l6ZXEhTkr+////hnEiWAYAAABhdHRyX3hxI1gD
+AAAAQWdlcSRLZoZxJVgGAAAAYXR0cl95cSZYCwAAAFBhc3NlbmdlcklkcSdLZoZxKGgIfXEpaBNL
+BHVYCgAAAGF0dHJpYnV0ZXNxKn1xKyhYCAAAAEVtYmFya2VkcSxLAWgkSwJYBQAAAFBhcmNocS1L
+AlgGAAAAUGNsYXNzcS5LAlgDAAAAU2V4cS9LAVgIAAAAU3Vydml2ZWRxMEsBaCdLAlgFAAAAU2li
+U3BxMUsCdVgFAAAAbWV0YXNxMn1xMyhYBAAAAE5hbWVxNEsDWAYAAABUaWNrZXRxNUsDdXViaBYp
+gXE2fXE3KGgZfXE4KFgKAAAAYXR0cl9jb2xvcnE5Tkr+////hnE6WAoAAABhdHRyX2xhYmVscTtO
+Sv7///+GcTxYCgAAAGF0dHJfc2hhcGVxPU5K/v///4ZxPlgJAAAAYXR0cl9zaXplcT9OSv7///+G
+cUBYBgAAAGF0dHJfeHFBWAMAAABBZ2VxQktmhnFDWAYAAABhdHRyX3lxRFgLAAAAUGFzc2VuZ2Vy
+SWRxRUtmhnFGWAUAAABncmFwaHFHfXFIaBNLBHVoKn1xSShYCAAAAEVtYmFya2VkcUpLAWhCSwJY
+BQAAAFBhcmNocUtLAlgGAAAAUGNsYXNzcUxLAlgDAAAAU2V4cU1LAVgIAAAAU3Vydml2ZWRxTksB
+aEVLAlgFAAAAU2liU3BxT0sCdWgyfXFQKFgEAAAATmFtZXFRSwNYBgAAAFRpY2tldHFSSwN1dWJl
+dS4=
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

@@ -1,0 +1,5 @@
+register firstly in: https://rapidapi.com/community/api/open-weather-map
+
+the URL: https://community-open-weather-map.p.rapidapi.com/forecast/daily?q=Cairo
+
+putting the x-rapidapi-key in the request headers
